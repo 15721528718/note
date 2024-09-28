@@ -76,10 +76,46 @@
     
 判断字符串操作的方法
     isidentifier() 判断指定的字符串是不是合法的标识符
-    isspance() 判断指定的字符串是否全部由空白字符组成（回车、换行、水平制表符）
+    isspace() 判断指定的字符串是否全部由空白字符组成（回车、换行、水平制表符）
     isalpha() 判断指定的字符串是否全部由字母组成
     isdecimal() 判断指定的字符串是否全部由十进制数字组成
     isnumeric 判断指定的字符串是否全部由数字组成
     isalnum 判断指定的字符串是否全部由字母和数字组成
     
+    字符串替换：
+    replace() 第1个参数指定被替换的子串，第2个参数指定替换子串的字符串，该方法返回替换后得到的字符串，替换前的字符串不
+              发生变化，调用该方法时可以通过第3个参数指定最大替换次数。
+              s='hello,python'
+              s.replace('python','java') ------>hello,java
+              
+              s1='hello,python,python,python'
+              s1.replace('python','java',2) ------>hello,java,java,python
+    字符串合并：
+    join() 将列表或元组中的字符串合并成一个字符串
+    
+字符串的比较操作
+    运算符：>,>=,<,<=,==,!=
+    比较规则：首先比较两个字符串中的第一个字符，如果相等则继续比较下一个字符，依次比较下去，直到两个字符串中的字符不相等时，
+    其比较结果就是两个字符串的比较结果，两个字符串中的所有后续字符将不再被比较。
+    比较原理：两个字符进行比较时，比较的是其ordinal value（原始值），调用函数ord()可以得到指定字符的ordinal value。与内
+    置函数ord()对应的是内置函数chr()，调用内置函数chr()时，指定ordinal value可以得到其对应的字符。
+
+字符串的切片操作
+    字符串是不可变类型，不具备增删改等操作，切片操作将产生新的对象。
+
+格式化字符串
+
+字符串的编码与解码-------爬虫可以用到
+s=‘天涯共此时’
+编码：
+s.encode(encoding = 'GBK')
+s1.encode(encoding = 'UTF-8')
+
+解码：
+byte = s.encode(encoding = 'GBK')
+byte1 = s1.encode(encoding = 'UTF-8')
+
+byte.decode(encoding = 'GBK')
+byte1.decode(encoding = 'UTF-8')
+
 """
