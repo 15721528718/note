@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 @Auth：bee
 @Time：2024-09-28 09:17   #28/9/2024 AM9:17
 @File：字典.PY
 @IDE：PyCharm
 @Motto：南风知我意
-'''
+"""
 # 1.字典的创建
 # a = {"asd": 2,"sdf":56}
 # b = dict(asd=2,sdf=56)

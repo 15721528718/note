@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 @Auth：bee
 @Time：2024-09-27 17:58   #27/9/2024 PM5:58
 @File：列表.PY
 @IDE：PyCharm
 @Motto：南风知我意
-'''
+"""
+
 # 1.列表的创建与删除
 # 2.列表的查询操作
 # 3.列表元素的增删改操作
@@ -30,7 +31,7 @@
 #     lst.extend(lst2)
 #
 #     在列表任意位置添加元素
-#     lst.insert(1,"asds")
+#     lst.insert(1,"asd")
 #
 #     切片
 # 删除：

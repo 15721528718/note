@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 @Auth：bee
 @Time：2024-09-28 09:18   #28/9/2024 AM9:18
 @File：元组与集合.PY
 @IDE：PyCharm
 @Motto：南风知我意
-'''
+"""
 # 元组：不可变序列，不能进行增删改操作
 #
 # 元组的创建方式：
@@ -64,8 +64,7 @@
 # s1.difference(s2)
 # s1-s2
 # 4.对称差集
-# s1.symmetric_diffeence(s2)
+# s1.symmetric_difference(s2)
 #
 # 集合生成式：
 # {i*i for i in range(10)}
-
