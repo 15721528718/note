@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0fb8eab-7ed7-4b10-bf85-bb71617140bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/python/字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/字符串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/模块-re模块-正则表达式.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/模块.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
