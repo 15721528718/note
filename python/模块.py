@@ -6,6 +6,20 @@
 @IDE：PyCharm
 @Motto：南风知我意
 """
+import random
+# a = random.random()
+# a = random.choice('hello')
+# a = random.randint(65,122)
+# a = []
+# ramdom.shuffle(a) --随机打乱列表元素的顺序
+#生成一个随机字母组成的列表
+def random_list():
+    a = []
+    for i in range(10):
+        chr_t = chr(random.randint(65,122))
+        a.append(chr_t)
+    return ''.join(a)
+print(random_list())
 """
 模块：
 就好比是工具包，想要使用这个工具包中的模块，就需要导入import这个模块
@@ -17,6 +31,14 @@
 包通常是一个拥有__init__.py文件的目录，它定义了包的属性和方法。
 
 常见的标准库：
-
+os os模块提供了许多与操作系统交互的函数，例如创建、移动和删除文件和目录，以及访问环境变量等。
+sys sys模块提供了与python解释器和系统相关的功能，例如解释器的版本和路径，以及与stdin、stdout和stderr相关的信息。
+time time模块提供了处理时间的函数，例如获取当前时间、格式化日期和时间、计时等。
+datetime datetime模块提供了更高级的日期和时间处理函数，例如处理时区、计算时间差、计算日期差等。
+random random模块提供了生成随机数的函数，例如生成随机整数、浮点数、序列等。
+math math模块提供了数学函数，例如三角函数、对数函数、指数函数、常数等。
+re re模块提供了正则表达式处理函数，可以用于文本搜索、替换、分割等。
+json json模块提供了json编码和解码函数，可以将python对象转换为json格式，并从json格式中解析出python对象。
+urllib urllib模块提供了访问网页和处理url的功能，包括下载文件、发送post请求、处理cookies等。
 
 """

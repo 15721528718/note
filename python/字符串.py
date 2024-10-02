@@ -92,6 +92,8 @@
               s1.replace('python','java',2) ------>hello,java,java,python
     字符串合并：
     join() 将列表或元组中的字符串合并成一个字符串
+    a = [1,2,3,4,5]
+    ''.join(a)
     
 字符串的比较操作
     运算符：>,>=,<,<=,==,!=
