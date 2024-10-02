@@ -9,6 +9,9 @@
 import random
 # a = random.random()
 # a = random.choice('hello')
+# a = random.randint(65,122)
+# a = []
+# ramdom.shuffle(a) --随机打乱列表元素的顺序
 #生成一个随机字母组成的列表
 def random_list():
     a = []
