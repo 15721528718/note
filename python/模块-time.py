@@ -7,5 +7,11 @@
 @Motto：南风知我意
 """
 import re,time
-
+a = time.time() #时间戳：1970年
+print(a)
+t = time.localtime() #结构化的时间
+print(t)
+print(t.tm_year)
+s = time.strftime('%Y-%m-%d %H:%M:%S', t)
+print(s)
 
