@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0fb8eab-7ed7-4b10-bf85-bb71617140bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python/面向对象-实例属性.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/面向对象-实例方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/面向对象-类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/面向对象-类属性.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/面向对象-类方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/面向对象-特点-继承.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/面向对象-静态方法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,7 +308,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727433930049</updated>
       <workItem from="1727783358820" duration="4740000" />
-      <workItem from="1728021933667" duration="14123000" />
+      <workItem from="1728021933667" duration="19202000" />
     </task>
     <servers />
   </component>
