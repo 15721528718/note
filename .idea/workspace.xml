@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0fb8eab-7ed7-4b10-bf85-bb71617140bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/wxpython学习.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/面向对象-特点-多态.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/面向对象-特点-封装.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/模块-turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/模块-turtle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/第二章 ：数据类型和基本运算符/数据类型和基本运算符.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/第二章 ：数据类型和基本运算符/数据类型和基本运算符.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,7 +353,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727433930049</updated>
       <workItem from="1727783358820" duration="4740000" />
-      <workItem from="1728021933667" duration="36916000" />
+      <workItem from="1728021933667" duration="37248000" />
     </task>
     <servers />
   </component>
