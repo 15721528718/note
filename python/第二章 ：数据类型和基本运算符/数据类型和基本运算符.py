@@ -30,8 +30,11 @@ x=123+456j
 "实数部分",x.real
 "虚数部分",x.imag
 
-# eval函数的使用
-# eval()函数 —eval(s)函数将去掉字符串s最外侧的引号，并按照python语句方式执行去掉引号后的字符串。
+"""
+eval函数的使用
+eval()函数 —eval(s)函数将去掉字符串s最外侧的引号，并按照python语句方式执行去掉引号后的字符串。
+也可以这样来理解：eval()函数就是实现list、dict、tuple、与str之间的转化
+"""
 x = 7
 eval( '3 * x' )
 # 21
@@ -42,3 +45,25 @@ eval('2 + 2')
 n=81
 eval("n + 4")
 # 85
+
+"""
+1、字符转换为列表：
+a = "[[1,2], [3,4], [5,6], [7,8], [9,0]]"
+print(type(a))
+b = eval(a)
+print(type(b))
+print(b)
+
+2、字符串转换为字典
+a = "{1: 'a', 2: 'b'}"
+print(type(a))b = eval(a)
+print(type(b))
+print(b)
+
+3、字符转换为元组
+a = "([1,2], [3,4], [5,6], [7,8], (9,0))"
+print(type(a))b=eval(a)
+print(type(b))
+print(b)
+
+"""
