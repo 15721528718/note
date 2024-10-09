@@ -17,3 +17,5 @@ def outer(func):
 def sleep():
     print('睡觉中zZZZ')
 sleep()
+a = outer(sleep())
+print(a)
