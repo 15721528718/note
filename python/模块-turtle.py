@@ -19,4 +19,4 @@ while True:
     pen.clear()
     pen.write(time.strftime('%Y-%m-%d %H:%M:%S',t),font=('Arial',24,'normal'))
     time.sleep(1)
-input()
+    input()
