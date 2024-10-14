@@ -157,8 +157,3 @@ increment函数引用了counter函数作用域中的count变量，并且counter�
 #     a += 2
 #     print(a)
 # aa()
-
-
-
-
-
