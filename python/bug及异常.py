@@ -54,7 +54,5 @@ bug的常见类型
                 num=1/0
             except:
                 traceback.print_exc()
-
-
-
+                
 """
