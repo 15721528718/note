@@ -28,8 +28,7 @@ btn = wx.Button(pl,label='测试',pos=(100,50))
 # 显示按钮
 btn.Show()
 # 给按钮绑定事件
-frm.Bind(wx.EVT_BUTTON,onClick,btn
-         )
+frm.Bind(wx.EVT_BUTTON,onClick,btn)
 
 
 

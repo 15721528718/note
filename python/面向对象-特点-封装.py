@@ -74,14 +74,16 @@ class Person:
         self.__name = name  # 私有属性
         self.__age = age  # 私有属性
 
-    def get_name(self):
-        return self.__name  # 公有方法
+    def get_name(self):  # 公有方法
+        return self.__name
 
-    def set_name(self, new_name):
-        self.__name = new_name  # 公有方法，用于修改私有属性
+    def set_name(self, new_name):  # 公有方法，用于修改私有属性
+        self.__name = new_name
 
-    def display_info(self):
-        return f"Name: {self.__name}, Age: {self.__age}"  # 公有方法
+    def display_info(self):  # 公有方法
+        return f"Name: {self.__name}, Age: {self.__age}"
+    def set_age(self, new_age):
+        self.__age = new_age
 
 # 通过公有方法访问和修改私有属性
 person1 = Person("TiYong", 30)
