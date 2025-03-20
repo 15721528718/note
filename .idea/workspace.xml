@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0fb8eab-7ed7-4b10-bf85-bb71617140bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/xmind/离散数学.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/xmind/离散数学.xmind" afterDir="false" />
-    </list>
+    <list default="true" id="a0fb8eab-7ed7-4b10-bf85-bb71617140bf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -393,6 +391,7 @@
       <updated>1727433930049</updated>
       <workItem from="1727783358820" duration="4740000" />
       <workItem from="1728021933667" duration="75304000" />
+      <workItem from="1740561407116" duration="34000" />
     </task>
     <servers />
   </component>
