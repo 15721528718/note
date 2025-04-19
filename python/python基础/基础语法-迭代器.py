@@ -11,3 +11,13 @@
 # 常见的可迭代对象：
 #   1.生成器
 #   2.列表、元组、字典、字符串
+# 列表、元组、字典、字符串虽然是可迭代对象，但不是迭代器，通过next取值会报错
+# 将可迭代对象转换成迭代器
+list1 = [12,23,24,34,56,'sade']
+g = iter(list1)
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))
+print(next(g))

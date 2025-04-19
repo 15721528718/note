@@ -37,6 +37,6 @@ f.writelines('我我我我我我我\n')
 f.close()
 
 # with语句
-with open('test.txt','r',encoding='utf-8') as f:
+with open('test.txt', 'r', encoding='utf-8') as f:
     context3 = f.read()
     print(context3)
