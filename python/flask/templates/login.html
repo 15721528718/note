@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        .c1{
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="c1">
+        <h1>用户登录</h1>
+        <form action="/login" method="post">
+            <div>
+                用户名:<input type="text" name="username">
+            </div>
+            <div>
+                密  码:<input type="text" name="password">
+            </div>
+
+            <input type="submit" value="提交">
+
+        </form>
+    </div>
+</body>
+</html>
