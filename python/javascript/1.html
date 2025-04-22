@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<div>
+  <span id="txt">《哪吒2》延长上映至5月31日</span>
+</div>
+<div>
+  <span id="txt1">娃哈哈回应跨界做AD钙奶鞋</span>
+</div>
+
+
+
+
+<script type="text/javascript">
+  function showTxt() {
+    var tag = document.getElementById("txt");
+    var data = tag.innerText;
+    // console.log(data);
+
+    var firsttxt = data[0];
+    var othertxt = data.substring(1, data.length);
+    var newtxt = othertxt + firsttxt;
+    // console.log(newtxt);
+
+    tag.innerText = newtxt;
+  }
+  // setInterval(showTxt, 200);
+</script>
+<script type="text/javascript" src="javaScript/jquery-3.7.1.js"></script>
+<script type="text/javascript" src="javaScript/1.js"></script>
+</body>
+</html>
+
