@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>案例:动态数据</title>
+    <style>
+        table{
+            border-collapse:collapse;
+        }
+        th{
+            border:1px solid #606266;
+            padding:5px 10px;
+            text-align: center;
+        }
+        td{
+            border:1px solid #606266;
+            padding:5px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <ul id="city" style="list-style:none">
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>姓名</th>
+                <th>年龄</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+    <script type="text/javascript" src="javaScript/1.js"></script>
+<!--<script type="text/javascript">-->
+<!--  var city = document.getElementById('city');-->
+<!--   //发送网络请求，获取数据-->
+<!--  var list = ["北京","上海","广州","深圳"];-->
+<!--  for (var i = 0; i < list.length; i++) {-->
+<!--    var cityName = list[i];-->
+<!--    // 创建<li></li>-->
+<!--    var tag = document.createElement('li');-->
+<!--    // 在li标签中写入内容-->
+<!--    tag.innerHTML = cityName;-->
+<!--    // 添加到id=city的标签里面-->
+<!--    city.appendChild(tag);-->
+<!--  }-->
+<!--</script>-->
+</body>
+</html>

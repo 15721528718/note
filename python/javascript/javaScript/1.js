@@ -19,3 +19,108 @@ function showTxt1(){
     tag1.innerText = newtxt1;
 }
 // setInterval(showTxt1, 180);
+
+// 2.数组
+var v1 = [11,22,33,4,55,6];
+var v2 = Array([2,1,3,4,5,6]);
+
+//操作
+v1.push('连通');//尾部追加   [11, 22, 33, 4, 55, 6, '连通']
+console.log(v1);
+v1.unshift("连通");//首部追加  ['连通', 11, 22, 33, 4, 55, 6, '连通']
+console.log(v1);
+v1.splice(1,0,'z');// ['连通', 'z', 11, 22, 33, 4, 55, 6, '连通']
+console.log(v1);
+v1.splice(1,1,'h');// ['连通', 'h', 11, 22, 33, 4, 55, 6, '连通']
+console.log(v1);
+
+v1.pop();//尾部删除
+console.log(v1);
+v1.shift();//首部删除
+console.log(v1);
+v1.splice(2,1);//索引为2的删除
+console.log(v1);
+
+// for循环遍历数组
+for (var i = 0; i < v1.length; i++) {
+    data = v1[i];
+    console.log(data);
+}
+console.log("**********************************")
+for (let i = 0; i < v1.length; i++) {
+    data = v1[i];
+    console.log(data);
+}
+console.log("**********************************")
+for (var idx in v1){
+    data = v1[idx];
+    console.log(data);
+}
+console.log("**********************************")
+
+// 动态数据
+function dtdata(){
+    var city = document.getElementById("city");
+    var list = ["北京","上海","广州","深圳"]
+    for(var i=0;i<list.length;i++){
+        var tag = document.createElement("li");
+        tag.innerText=list[i];
+        city.appendChild(tag);
+    }
+}
+dtdata();
+
+// 字典
+function zddata(){
+    var data = [
+        {id:1, name:"小明", age:19},
+        {id:2, name:"小明", age:19},
+        {id:3, name:"小明", age:19},
+        {id:4, name:"小明", age:19},
+        {id:5, name:"小明", age:19},
+        {id:6, name:"小明", age:19},
+        {id:7, name:"小明", age:19},
+    ]
+    var tbody = document.getElementById("tbody");
+    for(var i=0;i<data.length;i++){
+        var tagtr = document.createElement("tr");
+        var zddata = data[i]
+        console.log(zddata)
+        for (var key in zddata){
+            var tagtd = document.createElement("td");
+            tagtd.innerText=zddata[key];
+            tagtr.appendChild(tagtd);
+            console.log(zddata[key]);
+        }
+        tbody.appendChild(tagtr);
+    }
+}
+zddata()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
