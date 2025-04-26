@@ -6,3 +6,5 @@
 @IDE：PyCharm
 @Motto：南风知我意
 """
+import selenium
+print(selenium.__version__)
