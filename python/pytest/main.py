@@ -9,4 +9,4 @@
 import pytest
 
 if __name__ == '__main__':
-    pytest.main(['-vv', '../pytest/','-m api'])
+    pytest.main(['-vv', '../pytest/','-m canshu'])
