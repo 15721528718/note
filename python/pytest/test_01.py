@@ -16,18 +16,21 @@ def add(a: object, b: object) -> object:
 
 
 class TestAdd(object):
+
+    @pytest.mark.api 
     def test_int(self):
         res = add(1,2)
         assert res == 3
-
+    @pytest.mark.web
     def test_str(self):
         res = add('hello','world')
         assert res == 'helloworld'
-
+    @pytest.mark.ut
     def test_list(self):
         res = add([1,2,3],[4,5,6])
         assert res == [1,2,3,4,5,6]
-
+    @pytest.mark.login
+    @pytest.mark.usefixtures
     def test_dict(self):
         res = add({'a':1,'b':2},{'c':3,'d':4})
         assert res == {'a':1,'b':2,'c':3,'d':4}
