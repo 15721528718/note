@@ -9,4 +9,4 @@
 import pytest
 
 if __name__ == '__main__':
-    pytest.main(['-vv', '../pytest/','-m canshu'])
+    pytest.main(['-vv','-s', '../pytest/test_fixture.py'])  #,'-m canshu'
