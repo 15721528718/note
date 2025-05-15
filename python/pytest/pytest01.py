@@ -7,9 +7,17 @@
 @Motto：南风知我意
 """
 import csv
+import yaml
+import json
+
 def read_csv(path):
     with open(path, 'r', encoding='utf-8') as f:
         data = csv.reader(f)
         return list(data)
-a = read_csv("data.csv")
-print(a)
+# a = read_csv("data.csv")
+# print(a)
+
+with open('aaa.yaml', 'r', encoding='utf-8') as f:
+    data = yaml.safe_load(f)
+    json_data = json.dumps(data, indent=4)
+    print(json_data)
