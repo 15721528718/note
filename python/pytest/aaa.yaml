@@ -1,0 +1,22 @@
+#1.#作为注释符号
+#2.缩进：使用2个空格
+#3.成员表示
+#  - 表示列表成员
+#  ： 表示字典成员
+#4.兜底：完全兼容json
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  labels:
+    app: web
+spec:
+  replicas: 3 # 副本数
+  template:
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.19
+        ports:
+        - containerPort: 80

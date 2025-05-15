@@ -10,7 +10,7 @@ import pytest
 import os
 if __name__ == '__main__':
     pytest.main(['-vv','-s', '../pytest/test_fixture.py'])  #,'-m canshu'
-    os.system("allure generate ./temps -c -o ./report")
+    os.system('allure generate ./temps -c -o ./report')
 """
 pytest常用第三方插件
 1.pytest-html

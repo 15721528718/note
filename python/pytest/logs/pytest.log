@@ -1,6 +1,6 @@
-WARNING  2025-05-09 18:56:00 [pytest_result_log:122] : ---------------------Start: pytest/test_fixture.py::test_1----------------------
-INFO     2025-05-09 18:56:00 [pytest_result_log:190] : test status is PASSED (pytest/test_fixture.py::test_1): 
-WARNING  2025-05-09 18:56:00 [pytest_result_log:128] : ----------------------End: pytest/test_fixture.py::test_1-----------------------
-WARNING  2025-05-09 18:56:00 [pytest_result_log:122] : ---------------------Start: pytest/test_fixture.py::test_2----------------------
-INFO     2025-05-09 18:56:00 [pytest_result_log:190] : test status is PASSED (pytest/test_fixture.py::test_2): 
-WARNING  2025-05-09 18:56:00 [pytest_result_log:128] : ----------------------End: pytest/test_fixture.py::test_2-----------------------
+WARNING  2025-05-11 13:06:22 [pytest_result_log:122] : ---------------------Start: pytest/test_fixture.py::test_1----------------------
+INFO     2025-05-11 13:06:22 [pytest_result_log:190] : test status is PASSED (pytest/test_fixture.py::test_1): 
+WARNING  2025-05-11 13:06:22 [pytest_result_log:128] : ----------------------End: pytest/test_fixture.py::test_1-----------------------
+WARNING  2025-05-11 13:06:22 [pytest_result_log:122] : ---------------------Start: pytest/test_fixture.py::test_2----------------------
+INFO     2025-05-11 13:06:22 [pytest_result_log:190] : test status is PASSED (pytest/test_fixture.py::test_2): 
+WARNING  2025-05-11 13:06:22 [pytest_result_log:128] : ----------------------End: pytest/test_fixture.py::test_2-----------------------
