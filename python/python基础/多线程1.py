@@ -35,8 +35,8 @@ th1.start()
 th2.start()
 
 # 设置线程等待 .join()
-th1.join()
-th2.join()
+# th1.join()
+# th2.join()
 
 print("***********主线程结束***********")
 
