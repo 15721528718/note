@@ -86,8 +86,8 @@ class Person:
         self.__age = new_age
 
 # 通过公有方法访问和修改私有属性
-person1 = Person("TiYong", 30)
-print(person1.get_name())  # 输出: TiYong
-person1.set_name("Toy")
-print(person1.display_info())  # 输出: Name: Toy, Age: 30
+person2 = Person("TiYong", 30)
+print(person2.get_name())  # 输出: TiYong
+person2.set_name("Toy")
+print(person2.display_info())  # 输出: Name: Toy, Age: 30
 
