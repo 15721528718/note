@@ -6,7 +6,10 @@
 @IDE：PyCharm
 @Motto：南风知我意
 """
+"""
+locust框架的组成和工作流程
 
+"""
 from locust import HttpUser, TaskSet
 
 
