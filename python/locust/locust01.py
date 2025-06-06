@@ -7,7 +7,7 @@
 @Motto：南风知我意
 """
 
-from locust import HttpUser, TaskSet
+from locust import HttpUser, TaskSet,between,task
 
 
 # def requestCode(self):
@@ -28,4 +28,33 @@ class UserCollects(TaskSet):
 
 
 class UserBehavior(HttpUser):
-    tasks = [UserCollects]
+    # tasks = [UserCollects]
+
+    # 设置一个随机事时间间隔
+    wait_time = between(3, 5)
+
+    def on_start(self):
+        print("HttpUserBehavior on_start")
+
+    @task(1)
+    def index(self):
+        self.client.get("/index")
+        print("执行了index方法")
+    @task(4)
+    def about(self):
+        self.client.post("/about")
+        print("执行了about方法")
+
+    def on_stop(self):
+        print("HttpUserBehavior on_stop")
+"""
+有关locust关键类的说明
+
+client：requests封装后的
+self.client = HttpSession(base_url=self.host) ==>继承requests.Session
+
+tast_set：用于定义用户的任务信息
+max_wait/min_wait
+host
+weight：用于控制任务执行的权重
+"""
