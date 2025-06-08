@@ -7,3 +7,21 @@
 @Motto：南风知我意
 """
 # 集合点
+from locust import HttpUser, TaskSet, task
+from gevent._semaphore import Semaphore
+
+all_locust_spawned = Semaphore()
+all_locust_spawned.acquire()
+
+
+
+
+
+
+
+
+
+
+
+
+
