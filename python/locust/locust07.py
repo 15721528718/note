@@ -19,8 +19,10 @@ semaphore是一个内置的计数器： 每当调用acquire()时，内置计数�
 
 # 集合点
 from locust import HttpUser, TaskSet, task, events, between
-from gevent._semaphore import Semaphore
+# from gevent._semaphore import Semaphore
+from gevent.lock import Semaphore
 import os,re
+
 all_locust_spawned = Semaphore()
 all_locust_spawned.acquire() # 阻塞
 
@@ -28,6 +30,7 @@ all_locust_spawned.acquire() # 阻塞
 @events.spawning_complete.add_listener    # 所有的locust实例产生完成时触发
 def on_spawning_complete(**kwargs):
     all_locust_spawned.release() # 创建钩子方法
+
 
 n=0
 class UserBehaviour(TaskSet):

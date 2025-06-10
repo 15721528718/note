@@ -84,6 +84,6 @@ def querypage(self):
 #
 # print(userids)
 
-# for i in range(0,1001):
-#     a = i%1001
+# for i in range(0,101):
+#     a = i%50
 #     print(i,a)
