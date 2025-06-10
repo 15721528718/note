@@ -71,10 +71,10 @@ class UserBehavior(TaskSet):
         }
         data = {"tenantIds":["1007"],"query":{"sorts":[{"field":"","isAsc":""}],"current":1,"size":10}}
         with self.client.post(url, json=data, headers=headers,catch_response=True) as r:
-            if r.status_code == 2000:
+            if r.status_code == 200:
                 r.success()
             else:
-                r.failure(r.status_code)
+                r.failure("Failed to query page")
 
 class WebsiteUser(HttpUser):
     task_set = task(UserBehavior)

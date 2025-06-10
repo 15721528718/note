@@ -75,12 +75,15 @@ def querypage(self):
     assert res.status_code == 200
 
 
-userids = []
-with open("data_csv/data.csv", "r") as f:
-    data = csv.reader(f)
-    for row in data:
-        # print(row) ['1', '5436057']
-        userids.append(row[1])
+# userids = []
+# with open("data_csv/data.csv", "r") as f:
+#     data = csv.reader(f)
+#     for row in data:
+#         # print(row) ['1', '5436057']
+#         userids.append(row[1])
+#
+# print(userids)
 
-print(userids)
-
+# for i in range(0,101):
+#     a = i%50
+#     print(i,a)
