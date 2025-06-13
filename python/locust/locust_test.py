@@ -29,6 +29,8 @@ import re
 import os
 import requests,csv
 
+
+
 # 使用正则处理
 
 token = ""
@@ -87,3 +89,8 @@ def querypage(self):
 # for i in range(0,101):
 #     a = i%50
 #     print(i,a)
+
+def asaas(n):
+    if n == 0:
+        raise BaseException("除数不能为0")
+asaas(0)
