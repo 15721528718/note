@@ -136,7 +136,6 @@ increment是内部函数
 increment函数引用了counter函数作用域中的count变量，并且counter函数返回了increment函数。这样，即使counter函数
 的执行已经结束，increment函数仍然可以访问和修改count变量。
 ————————————————
-
                             版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
                         
 原文链接：https://blog.csdn.net/qq_35716085/article/details/136027158
