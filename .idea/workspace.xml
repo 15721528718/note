@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0fb8eab-7ed7-4b10-bf85-bb71617140bf" name="Changes" comment="" />
+    <list default="true" id="a0fb8eab-7ed7-4b10-bf85-bb71617140bf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/pytest/pytest01.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/pytest/pytest01.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,6 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "15721528718"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/15721528718/note.git",
+    "accountId": "31f3595e-c60c-406d-ae72-051ee10f9b1d"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.2/python_stubs/1086276317/builtins.py" root0="SKIP_INSPECTION" />
   </component>
@@ -48,45 +67,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wxpython学习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.函数.executor&quot;: &quot;Run&quot;,
-    &quot;Python.文件-csv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.文件.executor&quot;: &quot;Run&quot;,
-    &quot;Python.模块- socket-client.executor&quot;: &quot;Run&quot;,
-    &quot;Python.模块-socket-server.executor&quot;: &quot;Run&quot;,
-    &quot;Python.模块-turtle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.模块-练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.模块.executor&quot;: &quot;Run&quot;,
-    &quot;Python.闭包.executor&quot;: &quot;Run&quot;,
-    &quot;Python.面向对象-实例属性.executor&quot;: &quot;Run&quot;,
-    &quot;Python.面向对象-实例方法.executor&quot;: &quot;Run&quot;,
-    &quot;Python.面向对象-特点-多态.executor&quot;: &quot;Run&quot;,
-    &quot;Python.面向对象-特点-封装-property属性.executor&quot;: &quot;Run&quot;,
-    &quot;Python.面向对象-类.executor&quot;: &quot;Run&quot;,
-    &quot;Python.面向对象-类属性.executor&quot;: &quot;Run&quot;,
-    &quot;Python.面向对象-类方法.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;macbook__m1pro&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/saastest/Documents/GitHub/note/python&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.test.executor": "Run",
+    "Python.wxpython学习.executor": "Run",
+    "Python.函数.executor": "Run",
+    "Python.文件-csv.executor": "Run",
+    "Python.文件.executor": "Run",
+    "Python.模块- socket-client.executor": "Run",
+    "Python.模块-socket-server.executor": "Run",
+    "Python.模块-turtle.executor": "Run",
+    "Python.模块-练习.executor": "Run",
+    "Python.模块.executor": "Run",
+    "Python.闭包.executor": "Run",
+    "Python.面向对象-实例属性.executor": "Run",
+    "Python.面向对象-实例方法.executor": "Run",
+    "Python.面向对象-特点-多态.executor": "Run",
+    "Python.面向对象-特点-封装-property属性.executor": "Run",
+    "Python.面向对象-类.executor": "Run",
+    "Python.面向对象-类属性.executor": "Run",
+    "Python.面向对象-类方法.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Mac-mini",
+    "last_opened_file_path": "/Users/saastest/Documents/GitHub/note/python",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.文件-csv">
+  <component name="RunManager" selected="Django 服务器.note">
     <configuration name="面向对象-特点-封装-property属性" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="note" />
       <option name="ENV_FILES" value="" />
@@ -363,6 +383,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="note" type="Python.DjangoServer" factoryName="Django server">
+      <module name="note" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.文件-csv" />
@@ -376,8 +420,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
-        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.19416.19" />
+        <option value="bundled-python-sdk-337b0a7a993a-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.19416.19" />
       </set>
     </attachedChunks>
   </component>
@@ -392,6 +436,7 @@
       <workItem from="1727783358820" duration="4740000" />
       <workItem from="1728021933667" duration="75304000" />
       <workItem from="1740561407116" duration="34000" />
+      <workItem from="1754541419229" duration="411000" />
     </task>
     <servers />
   </component>

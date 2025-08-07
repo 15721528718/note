@@ -21,3 +21,4 @@ with open('aaa.yaml', 'r', encoding='utf-8') as f:
     data = yaml.safe_load(f)
     json_data = json.dumps(data, indent=4)
     print(json_data)
+
